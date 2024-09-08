@@ -4606,3 +4606,17 @@ li.col-xs-12:before{
 .text-pre-line{
 	white-space: pre-line
 }
+
+.clamp-1{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+
+.clamp-3{
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
