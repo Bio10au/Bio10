@@ -4602,3 +4602,7 @@ li.col-xs-12:before{
 .donation-form-outer button{
 	padding:12px 30px;	
 }
+
+.text-pre-line{
+	white-space: pre-line
+}
