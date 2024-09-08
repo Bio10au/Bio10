@@ -1365,6 +1365,7 @@ ul,li{
 }
 
 .features-column .icon-box{
+	scale: .75;
 	position:relative;
 	width:240px;
 	height:240px;
