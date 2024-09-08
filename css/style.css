@@ -1634,7 +1634,9 @@ ul,li{
 ====================================================================
 
 ***/
-
+.recent-projects {
+    display: none;
+}
 .recent-projects,
 .projects-section{
 	position:relative;
