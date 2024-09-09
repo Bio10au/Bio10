@@ -25,7 +25,7 @@ const team=[
     },
     {
         name:'Briar Wilder',
-        image:'default.png',
+        image:'briar-wilder.png',
         designation:'Communications Specialist',
         description:'Briar leads communications with a background in English Literature, ensuring effective messaging and audience engagement.'
     },
@@ -55,7 +55,7 @@ const team=[
     },
     {
         name:'Babak Roshani',
-        image:'default.png',
+        image:'babak-roshani.png',
         designation:'Environmental Engineering Innovator',
         description:'Babak collaborates on rapid bio composting technology, driving sustainable waste management innovations.'
     },
