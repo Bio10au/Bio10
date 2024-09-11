@@ -489,3 +489,30 @@
 		padding-left:0px;	
 	}
 }
+
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+	#team_section {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 3rem;
+	}
+}
+
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1280px) {
+	#team_section {
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		gap: 3rem;
+	}
+}
+
+@media (min-width: 1536px) {
+
+}
