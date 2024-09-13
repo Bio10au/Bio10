@@ -3,18 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>BIO10 |Agrobiotech PTY LTD</title>
-	<!-- Stylesheets -->
-	<link href="../css/bootstrap.css" rel="stylesheet">
-	<link href="../css/revolution-slider.css" rel="stylesheet">
-	<link href="../css/style.css?id=1" rel="stylesheet">
-	<!-- Responsive -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link href="../css/responsive.css" rel="stylesheet">
-	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<!--[if lt IE 9]><script src="../js/respond.js"></script><![endif]-->
+	{% include head.html title="Bio10-Protect - Pest Insect Management" %}
 </head>
 
 <body>
@@ -30,7 +19,7 @@
 		<div class="auto-container">
 			<div class="sec-title">
 				<h1>Bio10-Protect - Pest Insect Management<span class="normal-font"></span></h1>
-				<div class="bread-crumb"><a href="../index.html">Home</a> / <a href="../index.html">Projects</a> / <a href="#" class="current">Bio10-Protect - Advanced Pest Insect defence
+				<div class="bread-crumb"><a href="/index.html">Home</a> / <a href="/index.html">Projects</a> / <a href="/projects/Bio10-Protect.html" class="current">Bio10-Protect - Advanced Pest Insect defence
 				</a></div>
 			</div>
 		</div>
@@ -51,7 +40,7 @@
 						<div class="column default-featured-column">
 							<article class="inner-box">
 								<figure class="image-box">
-									<a href="#"><img src="../images/resource/b10-protect.jpg" alt=""></a>
+									<img src="../images/resource/b10-protect.jpg" alt="">
 								</figure>
 								<div class="content-box padd-top-40">
 									<div class="row detail-header clearfix">
@@ -258,28 +247,7 @@
 
 
 						<!-- Recent Posts -->
-						<div class="widget recent-posts wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-							<div class="sidebar-title"><h3>Latest Projects</h3></div>
-
-							<article class="post">
-								<figure class="post-thumb"><img src="../images/resource/b10-protect-tumb.jpg" alt=""></figure>
-								<h4><a href="Bio10-Protect.html">Bio10-Protect</a></h4>
-								<div class="post-info"><span class="icon flaticon-people-1"></span>Pest Insect Management</div>
-							</article>
-
-							 <article class="post">
-								<figure class="post-thumb"><img src="../images/resource/b10kane.jpg" alt=""></figure>
-								<h4><a href="Bio10-Kane.html">Bio10-Kane</a></h4>
-								<div class="post-info"><span class="icon flaticon-people-1"></span> Pest Insect Management </div>
-							</article>
-
-							<article class="post">
-								<figure class="post-thumb"><img src="../images/resource/b10Blanca-tumb.jpg" alt=""></figure>
-								<h4><a href="#">Bio10-Blanca</a></h4>
-								<div class="post-info"><span class="icon flaticon-people-1"></span>Disease Management</div>
-							</article>
-
-						</div>
+						{% include latest_projects_sidebar.html %}
 
 						<!-- Archives
 						<div class="widget archives-list wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -297,7 +265,7 @@
 						</div>
 						-->
 						<!-- Popular Tags -->
-						<div class="widget popular-tags">
+						<!-- <div class="widget popular-tags">
 							<div class="sidebar-title"><h3>KeyWords</h3></div>
 
 							<a href="#">Insect Protection</a>
@@ -306,7 +274,7 @@
 							<a href="#">Plant Defense</a>
 							<a href="#">Sustainable Agriculture</a>
 
-						</div>
+						</div> -->
 
 					</aside>
 
@@ -324,17 +292,6 @@
 </div>
 <!--End pagewrapper-->
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target=".main-header"><span class="fa fa-long-arrow-up"></span></div>
-
-<!-- /.modal -->
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/revolution.min.js"></script>
-<script src="../js/jquery.fancybox.pack.js"></script>
-<script src="../js/jquery.fancybox-media.js"></script>
-<script src="../js/owl.js"></script>
-<script src="../js/wow.js"></script>
-<script src="../js/script.js"></script>
+{% include scripts.html %}
 </body>
 </html>
