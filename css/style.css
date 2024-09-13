@@ -735,7 +735,7 @@ li {
 	border-bottom: 1px solid #d0d0d0;
 }
 
-header.fixed-header.main-header + section.page-title {
+header.fixed-header.main-header + section {
 	margin-top: 133px;
 }
 
