@@ -1,0 +1,20 @@
+					<article class="column team-member wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+						<div class="inner-box">
+							<figure class="image">
+								<img src="/images/team/{include.image}" alt="Phooto of {include.name}" style="border-radius: 10px">
+							</figure>
+							<div class="member-info">
+								<h3>{include.name}</h3>
+								<div class="designation clamp-1">{include.title}</div>
+							</div>
+							<div class="content">
+								<div class="text">
+									<p class="clamp-3">{include.description}</p>
+								</div>
+
+								{% if include.linkedin %}<div class="social-links">
+									<a href="{include.linkedin}"><span class="fa fa-linkedin"></span></a>
+								</div>{% endif %}
+							</div>
+						</div>
+					</article>
