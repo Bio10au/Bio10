@@ -12,9 +12,9 @@
 									<p class="clamp-3">{{ include.description }}</p>
 								</div>
 
-								{{ if include.linkedin }}<div class="social-links">
-									<a href="{{ include.linkedin }}"><span class="fa fa-linkedin"></span></a>
-								</div>{{ endif }}
+								{% if include.linkedin %}<div class="social-links">
+									<a href="{{ include.linkedin }}" target="_blank"><span class="fa fa-linkedin"></span></a>
+								</div>{% endif %}
 							</div>
 						</div>
 					</article>
