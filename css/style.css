@@ -38,6 +38,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Raleway:800,700,600,500,400,400italic);
 
+@import url("font-awesome.css");
+@import url("flaticon.css");
+@import url("animate.css");
+@import url("owl.css");
+@import url("jquery.fancybox.css");
+@import url("hover.css");
+
 @font-face {
 	font-family: "futura";
 	src:
@@ -46,13 +53,6 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
-@import url("font-awesome.css");
-@import url("flaticon.css");
-@import url("animate.css");
-@import url("owl.css");
-@import url("jquery.fancybox.css");
-@import url("hover.css");
 
 /***
 
