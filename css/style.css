@@ -31,11 +31,21 @@
 28. Gallery Masonry
 29. Gallery Three Column
 30. Contact Page
+31. Logo style
 
 **********************************************/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Raleway:800,700,600,500,400,400italic);
+
+@font-face {
+	font-family: "futura";
+	src:
+		url("/fonts/futuramaxicgbold-webfont.woff2") format("woff2"),
+		url("/fonts/futuramaxicgbold-webfont.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
 
 @import url("font-awesome.css");
 @import url("flaticon.css");
@@ -742,11 +752,6 @@ header.fixed-header.main-header + section {
 .main-header .header-upper .logo {
 	position: relative;
 	float: left;
-}
-
-.main-header .header-upper .logo img {
-	max-width: 100%;
-	display: inline-block;
 }
 
 .main-header .header-upper .nav-outer {
@@ -3461,6 +3466,17 @@ li.col-xs-12:before {
 	margin-bottom: 25px;
 }
 
+.team-section .team-member .team-member-default {
+	display: grid;
+	align-items: center;
+	aspect-ratio: 1140 / 1416;
+	justify-items: center;
+}
+
+.team-section .team-member .team-member-default svg {
+	width: 50%;
+}
+
 .no-border {
 	border: none !important;
 }
@@ -4631,4 +4647,37 @@ li.col-xs-12:before {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
+}
+
+/***
+
+====================================================================
+	Logo style
+====================================================================
+
+***/
+
+.bio10logo {
+	display: inline-grid;
+	grid-auto-flow: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.bio10logo svg {
+	height: 8rem;
+	display: inline-block;
+}
+
+.bio10logo .logo-name {
+	font-family: futura;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 6.5rem;
+	line-height: 1;
+	color: #3aafa9;
+}
+
+.bio10logo .logo-name:hover {
+	color: #3aafa9;
 }
