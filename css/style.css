@@ -1444,6 +1444,7 @@ header.fixed-header.main-header + section {
 	font-weight: 700;
 	text-transform: uppercase;
 	z-index: 2;
+	padding: 0 1rem;
 }
 
 .default-icon-column {
@@ -1675,6 +1676,14 @@ header.fixed-header.main-header + section {
 .recent-projects .column,
 .projects-section .column {
 	margin-bottom: 60px;
+}
+
+.projects-section h4 {
+	margin: 4rem 0 1.5rem 0;
+}
+
+.projects-section .bigger-text {
+	margin-top: 5rem;
 }
 
 .default-featured-column .image-box img {
@@ -3425,7 +3434,6 @@ li.col-xs-12:before {
 	font-size: 14px;
 	line-height: 20px;
 	color: #6bc611;
-	text-transform: capitalize;
 }
 
 .team-section .team-member .social-links {
@@ -3464,6 +3472,7 @@ li.col-xs-12:before {
 	padding: 15px 0px 10px;
 	border-bottom: 1px solid #e9e9e9;
 	margin-bottom: 25px;
+	height: 13.5rem;
 }
 
 .team-section .team-member .team-member-default {
