@@ -56,6 +56,11 @@
 
 							<li class="{% if include.active == "about" %}current{% endif %}">
 								<a href="/about.html">About</a>
+								
+							</li>
+
+							<li class="{% if include.active == "projects" %}current{% endif %}">
+								<a href="/projects.html">Projects</a>
 								<ul class="dropdown-menu">
 									<li><a href="/projects/500l-pilot/index.html">500L Pilot Bioprocess Reactor</a></li>
 									<li><a href="/projects/b-nature/index.html">B Nature</a></li>
@@ -69,10 +74,6 @@
 									<li><a href="/projects/pest-insect-management/index.html">PEST Insect Management</a></li>
 									
 								</ul>
-							</li>
-
-							<li class="{% if include.active == "projects" %}current{% endif %}">
-								<a href="/projects.html">Projects</a>
 							</li>
 
 							<!-- <li>
